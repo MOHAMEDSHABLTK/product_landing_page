@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering Site - Home</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('image/back5.jpeg');
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            color: #fff;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            width:100%;
+            border-bottom: 2px solid #fff;
+            position: relative;
+        }
+
+        h1 {
+            margin-top: 20px;
+            font-family: 'Arial Black', sans-serif;
+            font-size: 48px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            animation: fadeIn 1s ease-in-out forwards;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .site-description {
+            text-align: center;
+            font-size: 20px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            max-width: 800px;
+            margin: 20px;
+        }
+
+        .site-description ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .site-description li {
+            margin-bottom: 10px;
+        }
+
+        .menu-link {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .menu-link a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin-bottom: 20px;
+        }
+
+        .menu-link a:hover {
+            background-color: rgba(241, 211, 211, 0.1);
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            text-align: center;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 16px;
+            padding: auto;
+        }
+
+        
+        img.logo {
+            position: absolute;
+            top: -10px; 
+            left: 50%;
+            transform: translateX(-50%);
+            mix-blend-mode: multiply; 
+            opacity: 0.9; 
+            z-index: -1; 
+            width: 170px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="image/logo.png" alt="Order Up Logo" class="logo">
+    <h1>Welcome to OrderUp</h1>
+</header>
+
+<div class="site-description">
+    <p>Order delicious food items online and get them delivered to your doorstep! Sit back, relax, and enjoy the convenience of our fast and reliable food delivery service.</p>
+    <ul>
+        <li>Explore a wide variety of cuisines from local restaurants and popular chains.</li>
+        <li>Customize your orders with special instructions and dietary preferences.</li>
+        <li>Track your orders in real-time and receive updates on the delivery status.</li>
+        <li>Enjoy exclusive deals and discounts on your favorite meals.</li>
+        <li>Experience seamless payment options with secure transactions.</li>
+        <li>Connect with our friendly customer support team for any assistance or inquiries.</li>
+        <li>Join our loyalty program to earn rewards and redeem exciting offers.</li>
+        <li>Discover new culinary delights and trending dishes recommended by our community.</li>
+        <li>Leave feedback and ratings to help improve the quality of our service.</li>
+        <li>Stay informed about the latest promotions and events happening in your area.</li>
+    </ul>
+</div>
+
+<div class="menu-link">
+    <a href="index.html">Explore Our Menu</a>
+</div>
+
+<footer>
+    <p>&copy; 2024 Food Ordering Site</p>
+</footer>
+
+</body>
+</html>
+
+
